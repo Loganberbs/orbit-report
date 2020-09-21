@@ -7,13 +7,10 @@ import { Satellite } from '../satellite';
 })
 export class OrbitListComponent implements OnInit {
   highlight: boolean = true
-
-  @Input() satellites: Satellite[];
-  
+@Input() satellites: Satellite[];
   constructor() { }
-
-ngOnInit() {
-  }
+  ngOnInit() {
+}
 
   sort(column: string): void {
     this.satellites.sort(function (a: Satellite, b: Satellite): number {

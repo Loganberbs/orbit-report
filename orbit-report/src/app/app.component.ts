@@ -12,7 +12,7 @@ export class AppComponent {
   displayList: Satellite[];
 
   constructor() {
-    this.sourceList = [];
+    this.sourceList =[];
     this.displayList = [];
     this.typeList = [];
     let satellitesUrl = 'https://handlers.education.launchcode.org/static/satellites.json';
