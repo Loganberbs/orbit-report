@@ -3,11 +3,11 @@
 }
 
 button {
-    margin-left: 10px;
-    color: #fff;
-    background-color: #009b25;
+    color: whitesmoke;
+    background-color: green;
+    font-size: 18px;
     border-radius: 4px;
     padding: 2px 5px;
-    font-size: 18px;
-    cursor: pointer;
+    cursor: hand;
+    margin-left: 10px;
 }

@@ -14,11 +14,11 @@ constructor(name: string, type: string, launchDate: string, orbitType: string, o
     }
 
     shouldShowWarning(): boolean {
-        if (this.type.toLowerCase() === 'Space Debris'.toLowerCase())
-        
-        {return true;}  
-        
-        else { return false; }
+        if (this.type.toLowerCase() === 'Space Debris'.toLowerCase()){
+            return true;
+} 
+    else { 
+            return false; 
+        }
     }
-
 }

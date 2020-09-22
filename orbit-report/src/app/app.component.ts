@@ -34,6 +34,8 @@ export class AppComponent {
           let value = typesPresent[key];
           this.typeList.push({ "type": key, "count": value });
         }
+        // make a copy of the sourceList to be shown to the user
+        
         this.displayList = this.sourceList.slice(0);
       }.bind(this));
     }.bind(this));
