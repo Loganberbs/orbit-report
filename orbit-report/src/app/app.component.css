@@ -1,5 +1,6 @@
 .search-form {
     margin-bottom: 40px;
+    margin-left: 40px;
 }
 
 button {
@@ -8,6 +9,6 @@ button {
     font-size: 18px;
     border-radius: 4px;
     padding: 2px 5px;
-    cursor: hand;
+    cursor: pointer;
     margin-left: 10px;
 }

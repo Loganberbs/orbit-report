@@ -1,12 +1,14 @@
 .counts {
     background: darkgrey;
     color: beige;
-    border-radius: 5px;
-    width: 225px;
+    border-radius: 7px;
+    width: 235px;
+    margin-left: 40px;
 }
 
 .counts div {
-    padding: 8px;
+    padding: 10px;
+
 }
 
 .counts span {

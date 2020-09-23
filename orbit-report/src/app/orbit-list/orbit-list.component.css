@@ -1,5 +1,5 @@
 .sortable {
-    cursor: hand;
+    cursor: pointer;
     color: yellow
 }
 
@@ -12,6 +12,7 @@ table {
   border-radius: 5px;
   overflow: hidden;
   margin: 12px 0;
+  margin-left: 40px;
   min-width: 300px;
   background:lightgrey;
 }
